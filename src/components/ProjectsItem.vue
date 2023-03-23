@@ -14,8 +14,8 @@
             <p class="text-base text-primary font-regular text-left">{{description}}</p>
         </div>
         <div class="flex flex-row gap-6">
-            <a class="text-button font-semibold text-primary hover:text-gradient-blue duration-300 ease-in-out" :href="codeLink">Code</a>
-            <a class="text-button font-semibold text-primary hover:text-gradient-blue duration-300 ease-in-out" :href="previewLink">Preview</a>
+            <a class="text-button font-semibold text-primary hover:text-gradient-blue duration-300 ease-in-out" :href="codeLink" target="_blank" rel="noopener noreferrer">Code</a>
+            <a class="text-button font-semibold text-primary hover:text-gradient-blue duration-300 ease-in-out" :href="previewLink" target="_blank" rel="noopener noreferrer">Preview</a>
         </div>
     </div>
 </template>

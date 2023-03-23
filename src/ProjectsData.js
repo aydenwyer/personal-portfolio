@@ -16,11 +16,11 @@ export default [
         "image": "url"
     },
     {
-        "name": "Tax Calculator App",
+        "name": "Tip Calculator App",
         "stack": ["HTML", "CSS", "JavaScript"],
         "description": "Visualize your CSS box shadow with easy to use sliders and color inputs. After you’re happy with the result, export the code and use it in your current project!",
-        "codeLink": "#",
-        "previewLink": "#",
+        "codeLink": "https://github.com/aydenwyer/tip-calculator-app",
+        "previewLink": "https://aydenwyer.github.io/tip-calculator-app/",
         "image": "../tax-calculator_app.png"
     },
     {
