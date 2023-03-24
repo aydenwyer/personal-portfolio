@@ -1,6 +1,6 @@
 <template>
     <ul class="hidden md:flex flex-row items-center gap-16">
-        <li v-for="link in Links"><a class="text-primary font-medium text-lg hover:text-gradient-blue duration-300 ease-in-out" :href="link.link">{{link.name}}</a></li>
+        <li v-for="link in Links"><a :class="textColor" class="font-medium text-lg hover:text-gradient-blue duration-300 ease-in-out" :href="link.link">{{link.name}}</a></li>
     </ul>
 </template>
 
@@ -16,5 +16,6 @@
             
             return{Links}
         },
+        props: ['textColor']
     }
 </script>

@@ -1,7 +1,7 @@
 <template>
     <nav class="flex flex-row justify-end items-center py-10 md:justify-between">
-        <NavLinks />
-        <NavIcons />
+        <NavLinks text-color="text-primary"/>
+        <NavIcons color="#273266"/>
     </nav>
 </template>
 

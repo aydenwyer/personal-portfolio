@@ -6,6 +6,7 @@
     <Projects />
     <Contact />
   </section>
+  <Footer />
 </template>
 
 <script>
@@ -14,6 +15,7 @@
   import Technologies from './components/Technologies.vue'
   import Projects from './sections/Projects.vue'
   import Contact from './sections/Contact.vue'
+  import Footer from './components/Footer.vue'
 
   export default {
     components: {
@@ -21,7 +23,8 @@
       Hero,
       Technologies,
       Projects,
-      Contact
+      Contact,
+      Footer
     }
   }
   
