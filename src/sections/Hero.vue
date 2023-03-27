@@ -6,7 +6,7 @@
                 <p class="text-2xl font-medium">Hello, my name is</p>
                 <h1 class="text-h1 font-semibold mb-6">Ayden Wyer</h1>
                 <p class="text-lg font-regular mb-12">I'm a <span class="font-semibold underline">designer</span> and <span class="font-semibold underline">software developer</span>.</p>
-                <Button />
+                <Button link="#contact"/>
             </div>
             <div class="hidden md:block">
                 <img src="../../hero_graphic.svg" alt="" class="shadow-2xl shadow-primary/20">

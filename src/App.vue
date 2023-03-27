@@ -1,10 +1,10 @@
 <template>
   <section class="max-w-5xl mx-auto px-4">
-    <Navbar />
+    <Navbar id="home"/>
     <Hero />
-    <Technologies />
-    <Projects />
-    <Contact />
+    <Technologies/>
+    <Projects id="projects"/>
+    <Contact id="contact"/>
   </section>
   <Footer />
 </template>

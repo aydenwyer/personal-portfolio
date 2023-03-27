@@ -7,7 +7,7 @@
                     <input class="text-sm text-primary font-regular py-2 px-3 rounded-sm outline outline-1 outline-[#E0E0E0]" name="user_name" type="text">
                 </div>
                 <div class="flex flex-col">
-                    <label class="text-sm text-primary font-regular mb-1" for="user_email">Email</label>
+                    <label class="text-sm text-primary font-regular mb-1" for="user_email">Email *</label>
                     <input class="text-sm text-primary font-regular py-2 px-3 rounded-sm outline outline-1 outline-[#E0E0E0]" name="user_email" type="email" required>
                 </div>
                 <div class="flex flex-col">

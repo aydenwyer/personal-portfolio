@@ -14,3 +14,7 @@ body {
     overflow-x: hidden;
     background-image: linear-gradient(to bottom, #FFFFFF,#FAFCFF 30%)
 }
+
+html {
+    scroll-behavior: smooth;
+}

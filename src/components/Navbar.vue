@@ -1,7 +1,7 @@
 <template>
-    <nav class="flex flex-row justify-end items-center py-10 md:justify-between">
+    <nav class="flex flex-row justify-center items-center py-10 md:justify-between">
         <NavLinks text-color="text-primary"/>
-        <NavIcons color="#273266"/>
+        <NavIcons :icon-fill="iconFill" :border-color="borderColor" :text-color="textColor" />
     </nav>
 </template>
 
@@ -15,6 +15,13 @@
             NavIcons,
             Hamburger,
             NavLinks
+        },
+        data() {
+            return {
+                iconFill: '#273266',
+                borderColor: 'primary',
+                textColor: 'primary'
+            }
         }
     }
 </script>

@@ -8,10 +8,10 @@
     export default {
         setup() {
             let Links = [
-                {name: "Home", link: "#"},
-                {name: "Projects", link: "#"},
-                {name: "About", link: "#"},
-                {name: "Contact", link: "#"},
+                {name: "Home", link: "#home"},
+                {name: "Projects", link: "#projects"},
+                {name: "About", link: "#about"},
+                {name: "Contact", link: "#contact"},
             ]
             
             return{Links}
