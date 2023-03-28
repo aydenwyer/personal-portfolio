@@ -22,7 +22,7 @@
             </defs>
             </svg>
         </a>
-        <ButtonResume :border-color="borderColor" :text-color="textColor"/>
+        <ButtonResume :outline-color="outlineColor" :text-color="textColor"/>
     </div>
 </template>
 
@@ -33,6 +33,6 @@
         components: {
             ButtonResume
         },
-        props: ['borderColor','textColor', 'iconFill']
+        props: ['outlineColor','textColor', 'iconFill']
     }
 </script>

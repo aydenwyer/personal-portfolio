@@ -2,7 +2,7 @@
     <section class="py-20">
         <GradientCircles />
         <div class="flex flex-row w-full justify-center items-center text-center md:justify-between md:text-left">
-            <div class="text-primary">
+            <div class="text-primary" v-motion-slide-visible-once-bottom>
                 <p class="text-2xl font-medium">Hello, my name is</p>
                 <h1 class="text-h1 font-semibold mb-6">Ayden Wyer</h1>
                 <p class="text-lg font-regular mb-12">I'm a <span class="font-semibold underline">designer</span> and <span class="font-semibold underline">software developer</span>.</p>

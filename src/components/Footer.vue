@@ -19,7 +19,7 @@
             NavLinks,
             NavIcons
         },
-        data() {
+        setup() {
             return {
                 iconFill: '#ffffff',
                 borderColor: 'white',
