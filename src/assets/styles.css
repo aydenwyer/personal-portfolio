@@ -4,9 +4,9 @@
 
 @font-face {
     font-family: 'GeneralSans-Variable';
-    src: url('../../public/GeneralSans-Variable.woff2') format('woff2'),
-         url('../../public/GeneralSans-Variable.woff') format('woff'),
-         url('../../public/GeneralSans-Variable.ttf') format('truetype');
+    src: local('GeneralSans-Variable'), url('../../GeneralSans-Variable.woff2') format('woff2'),
+         url('../../GeneralSans-Variable.woff') format('woff'),
+         url('../../GeneralSans-Variable.ttf') format('truetype');
          font-weight: 200 700;
          font-display: swap;
          font-style: normal;
@@ -14,7 +14,8 @@
 
 body {
     overflow-x: hidden;
-    background-image: linear-gradient(to bottom, #FFFFFF,#FAFCFF 30%)
+    background-image: linear-gradient(to bottom, #FFFFFF,#FAFCFF 30%);
+    font-family: 'GeneralSans-Variable', Arial, sans-serif;
 }
 
 html {
