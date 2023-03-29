@@ -1,14 +1,12 @@
 <template>
-  <div class="wrapper">
-    <section class="max-w-5xl mx-auto px-4">
-      <Navbar id="home"/>
-      <Hero />
-      <Technologies/>
-      <Projects id="projects"/>
-      <Contact id="contact"/>
-    </section>
-    <Footer />
-  </div>
+  <section class="max-w-5xl mx-auto px-4">
+    <Navbar id="home"/>
+    <Hero />
+    <Technologies/>
+    <Projects id="projects"/>
+    <Contact id="contact"/>
+  </section>
+  <Footer />
 </template>
 
 <script>
@@ -31,9 +29,3 @@
   }
   
 </script>
-
-<style>
-.wrapper {
-  overflow-x: hidden;
-}
-</style>
