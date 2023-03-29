@@ -5,7 +5,7 @@
 @layer base {
     @font-face {
         font-family: "General Sans";
-        src: url("./GeneralSans-Variable.ttf") format("ttf");
+        src: url("../../public/GeneralSans-Variable.ttf") format("ttf");
         font-weight: 400, 500, 600;
     }
 }
