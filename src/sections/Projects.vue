@@ -1,6 +1,6 @@
 <template>
     <section class="py-20 text-center">
-        <p class="text-5xl font-semibold text-primary mb-16">My Current Projects</p>
+        <p class="text-4xl sm:text-5xl font-semibold text-primary mb-16">My Current Projects</p>
         <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
             <div class="shadow-2xl shadow-primary/20 rounded-lg overflow-hidden flex flex-col" v-for="project in ProjectsData">
                 <ProjectsItem
