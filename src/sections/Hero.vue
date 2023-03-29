@@ -9,7 +9,7 @@
                 <Button link="#contact"/>
             </div>
             <div class="hidden md:block">
-                <img src="../../hero_graphic.svg" alt="" class="shadow-2xl shadow-primary/20">
+                <img src="../../public/hero_graphic.svg" alt="" class="shadow-2xl shadow-primary/20">
             </div>
         </div>
     </section>
